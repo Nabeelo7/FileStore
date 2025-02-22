@@ -138,7 +138,7 @@ async def start_command(client: Client, message: Message):
 
         if FILE_AUTO_DELETE > 0:
             notification_msg = await message.reply(
-                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}. Please save or forward it to your saved messages before it gets deleted.</b>"
+                f"<b>This file will be deleted in {get_exp_time(FILE_AUTO_DELETE)}.\nFiles cant be shaerd because protect content is on \nSo download and watch it before its get deleted in given time.\nThank you @Anime_Maniaq</b>"
             )
 
             await asyncio.sleep(FILE_AUTO_DELETE)
@@ -172,7 +172,7 @@ async def start_command(client: Client, message: Message):
 
     [
                     InlineKeyboardButton("𝗔𝗯𝗼𝘂𝘁", callback_data = "about"),
-                    InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀', url='https://t.me/nova_flix')
+                    InlineKeyboardButton('𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀', url='https://t.me/Anime_Maniaq')
 
     ]
             ]
